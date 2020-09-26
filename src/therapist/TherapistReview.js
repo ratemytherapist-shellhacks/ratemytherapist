@@ -61,7 +61,7 @@ const TherapistReview = ({ therapist }) => {
                         <input type="range" min="0" max="100" step="1" class="form-range" id="reviewAffordability"></input>
                     </div>
 
-                    <Link className='btn btn-outline-primary mt-4' to={'/therapists/' + therapist.id + '/review/thanks'}>Submit</Link>
+                    <Link className='btn btn-lg btn-outline-primary btn-block' to={'/therapists/' + therapist.id + '/review/thanks'}>Submit</Link>
                 </div>
             </div>
         </>

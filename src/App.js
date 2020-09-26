@@ -7,7 +7,7 @@ import {
   Link
 } from 'react-router-dom';
 import Types from './type/Types';
-import Therapist from './therapist/Therapist';
+import Therapists from './therapist/Therapists';
 import Home from './Home';
 
 const App = () => {
@@ -30,7 +30,7 @@ const App = () => {
       <div className="container">
         <Switch>
           <Route path="/therapists">
-            <Therapist />
+            <Therapists />
           </Route>
           <Route path="/types">
             <Types />

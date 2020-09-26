@@ -1,0 +1,29 @@
+.flex-card {
+    margin: 0.5rem;
+    flex: 1 0 1;
+    position: relative;
+    transition: 0.2s ease all;
+    top: 5px;
+}
+
+.flex-card:hover {
+    top: 0;
+}
+
+@media (min-width: 576px) {
+    .flex-card {
+        flex: 1 0 33.4%;
+    }
+}
+
+@media (min-width: 768px) {
+    .flex-card {
+        flex: 1 0 25.1%;
+    }
+}
+
+@media (min-width: 992px) {
+    .flex-card {
+        flex: 1 0 20.1%;
+    }
+}

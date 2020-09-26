@@ -1,5 +1,4 @@
 import React from 'react';
-import WhyTherapy from './WhyTherapy';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -14,20 +13,13 @@ const Home = () => {
                 <Card title={'Therapy Types'} button={{ text: 'Find your type', destination: '/types' }}>
                     <p>There are many types of therapy, and different types work better for different people or problems.</p>
                 </Card>
-                <Card title={'Find a Therapist'} button={{ text: 'Find a therapist', destination: '/therapists' }}>
-                    <p>Something something something</p>
-                </Card>
-                <Card title={'Rate a Therapist'} button={{ text: 'Start rating', destination: '/therapists' }}>
-                    <p>Write your therapist reviews</p>
-                </Card>
                 <Card title={'Why Therapy'} button={{ text: 'See why', destination: '/whytherapy' }}>
                     <p>The benefits and the reasons to go.</p>
                 </Card>
-                
+                <Card title={'Find a Therapist'} button={{ text: 'Find a therapist', destination: '/therapists' }}>
+                    <p>View therapists and their ratings, and leave a review of your own to help others.</p>
+                </Card>
             </div>
-            
-
-            
         </>
     )
 }

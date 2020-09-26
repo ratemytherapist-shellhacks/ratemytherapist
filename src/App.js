@@ -21,10 +21,8 @@ const App = () => {
         </h5>
         <nav className="my-2 my-md-0 mr-md-3">
           <Link className="p-2 text-dark" to="/types">Find Your Therapy</Link>
-          <Link className="p-2 text-dark" to="/therapists">Find a Therapist</Link>
-          <Link className="p-2 text-dark" to="/therapists">Rate a Therapist</Link>
           <Link className="p-2 text-dark" to="/whytherapy">Why Therapy</Link>
-
+          <Link className="p-2 text-dark" to="/therapists">Find a Therapist</Link>
         </nav>
         <form className="d-flex mr-2">
           <input className="form-control" type="search" placeholder="🔍 Search" aria-label="🔍 Search" />

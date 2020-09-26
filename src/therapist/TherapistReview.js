@@ -1,25 +1,8 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Rating from './Rating';
 
-// TODO: get from back-end
-const therapists = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].map((v) => ({
-    id: v.toString(),
-    name: 'Therapist #' + v,
-    type: 'Cat Therapist',
-    description: 'Specialises in cuddles',
-    picture: 'https://placekitten.com/500/500?image=' + v,
-    ratings: {
-        effectiveness: (72 + (9 * v) ** 2) % 60 + 40,
-        friendliness: (93 + (8 * v) ** 2) % 60 + 40,
-        affordability: (57 + (7 * v) ** 2) % 60 + 40,
-    }
-}));
-
-const TherapistReview = () => {
-    const { therapistId } = useParams();
-    const therapist = therapists[parseInt(therapistId) - 1];
-
+const TherapistReview = ({ therapist }) => {
     return (
         <>
             <Link className="text-dark" to={'/therapists/' + therapist.id}><h5>◀ Back to therapist</h5></Link>
@@ -63,20 +46,22 @@ const TherapistReview = () => {
 
                     <br class="my-4" />
 
-                    <div class="my-4">
+                    <div class="my-3">
                         <label for="reviewEffectiveness" class="form-label">How effective is {therapist.name}?</label>
                         <input type="range" min="0" max="100" step="1" class="form-range" id="reviewEffectiveness"></input>
                     </div>
 
-                    <div class="my-4">
+                    <div class="my-3">
                         <label for="reviewFriendliness" class="form-label">How friendly is {therapist.name}?</label>
                         <input type="range" min="0" max="100" step="1" class="form-range" id="reviewFriendliness"></input>
                     </div>
 
-                    <div class="my-4">
+                    <div class="my-3">
                         <label for="reviewAffordability" class="form-label">How affordable is {therapist.name}?</label>
                         <input type="range" min="0" max="100" step="1" class="form-range" id="reviewAffordability"></input>
-                    </div>                    
+                    </div>
+
+                    <Link className='btn btn-outline-primary mt-4' to={'/therapists/' + therapist.id + '/review/thanks'}>Submit</Link>
                 </div>
             </div>
         </>

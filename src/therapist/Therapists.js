@@ -1,8 +1,9 @@
 import React from 'react';
 import './Therapists.css';
-import { Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch, Link, useParams } from 'react-router-dom';
 import Therapist from './Therapist';
 import TherapistReview from './TherapistReview';
+import TherapistReviewThanks from './TherapistReviewThanks';
 import Rating from './Rating';
 
 // TODO: get from back-end
@@ -16,22 +17,76 @@ const therapists = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].map((
         effectiveness: (72 + (9 * v) ** 2) % 60 + 40,
         friendliness: (93 + (8 * v) ** 2) % 60 + 40,
         affordability: (57 + (7 * v) ** 2) % 60 + 40,
-    }
+    },
+    reviews: [
+        {
+            id: v.toString() + '_1',
+            writtenAt: 1601143260,
+            reccommends: true,
+            ratings: {
+                effectiveness: Math.min((72 + (9 * v) ** 2) % 60 + 40 + 12, 100),
+                friendliness: Math.min((72 + (9 * v) ** 2) % 60 + 40 + 10, 100),
+                affordability: Math.min((72 + (9 * v) ** 2) % 60 + 40 - 15, 100),
+            },
+            title: 'Useful for helping me',
+            content: 'Blah' + ' blah'.repeat(40) + '.',
+        },
+        {
+            id: v.toString() + '_2',
+            writtenAt: 1601133260,
+            reccommends: true,
+            ratings: {
+                effectiveness: Math.min((72 + (9 * v) ** 2) % 60 + 40 + 18, 100),
+                friendliness: Math.min((72 + (9 * v) ** 2) % 60 + 40 - 10, 100),
+                affordability: Math.min((72 + (9 * v) ** 2) % 60 + 40 + 10, 100),
+            },
+            title: 'Good therapist',
+            content: 'Blah' + ' blah'.repeat(25) + '.',
+        },
+        {
+            id: v.toString() + '_3',
+            writtenAt: 1601128260,
+            reccommends: false,
+            ratings: {
+                effectiveness: Math.min((72 + (9 * v) ** 2) % 60 + 40 - 30, 100),
+                friendliness: Math.min((72 + (9 * v) ** 2) % 60 + 40, 100),
+                affordability: Math.min((72 + (9 * v) ** 2) % 60 + 40 + 5, 100),
+            },
+            title: 'Not that effective',
+            content: 'Blah' + ' blah'.repeat(100) + '.',
+        }
+    ]
 }));
 
 const Therapists = () => {
     return (
         <Switch>
-        <Route path='/therapists/:therapistId/review'>
-          <TherapistReview />
-        </Route>
-        <Route path='/therapists/:therapistId'>
-          <Therapist />
-        </Route>
-        <Route path='/therapists'>
-          <TherapistList />
-        </Route>
-      </Switch>
+            <Route path='/therapists/:therapistId'>
+                <TherapistSubRoute />
+            </Route>
+            <Route path='/therapists'>
+                <TherapistList />
+            </Route>
+        </Switch>
+    )
+}
+
+const TherapistSubRoute = () => {
+    const { therapistId } = useParams();
+    const therapist = therapists[parseInt(therapistId) - 1];
+
+    return (
+        <Switch>
+            <Route path='/therapists/:therapistId/review/thanks'>
+                <TherapistReviewThanks therapist={therapist} />
+            </Route>
+            <Route path='/therapists/:therapistId/review'>
+                <TherapistReview therapist={therapist} />
+            </Route>
+            <Route path='/therapists/:therapistId'>
+                <Therapist therapist={therapist} />
+            </Route>
+        </Switch>
     )
 }
 
@@ -68,7 +123,7 @@ const TherapistCard = ({ therapist }) => {
                     <Rating name='Effectiveness' value={therapist.ratings.effectiveness} />
                     <Rating name='Friendliness' value={therapist.ratings.friendliness} />
                     <Rating name='Affordability' value={therapist.ratings.affordability} />
-                    <br/>
+                    <br />
                     <Link className='btn btn-outline-primary btn-block' to={'/therapists/' + therapist.id}>More details</Link>
                 </div>
             </div>

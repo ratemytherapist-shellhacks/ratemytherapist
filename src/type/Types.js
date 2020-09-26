@@ -11,11 +11,11 @@ const Types = () => {
             <h2>
                  <ul className="list-unstyled mt-3 mb-4">
                     <li>Cognitive Behavioural therapy</li>
-                     <li>Guided Self Help therapy</li>
+                    <li>Guided Self Help therapy</li>
                     <li>Counselling therapy</li>
                     <li>Behavioural Activation therapy</li>
                     <li>Interpersonal therapy</li>
-                     <li>Eye movement desensitisation and reprocessing therapy</li> 
+                    <li>Eye movement desensitisation and reprocessing therapy</li> 
                 </ul>
             </h2>
        </div>

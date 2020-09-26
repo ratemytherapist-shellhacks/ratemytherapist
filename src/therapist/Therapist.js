@@ -39,20 +39,20 @@ const Review = ({ review }) => {
     return (
         <div class="row g-0 py-2" style={{ borderBottom: '1px solid #ddd' }}>
             <div class="col-md-2 mt-4 d-none d-md-block" style={{ textAlign: 'center' }}>
-                {review.reccommends
+                {review.recommends
                     ? <>
                         <img className="mb-2" width="60%" src='/thumbsup.png' alt='Thumbs up' />
-                        <p className="text-muted">Would reccommend</p>
+                        <p className="text-muted">Would recommend</p>
                     </>
                     : <>
                         <img className="mb-2" width="60%" src='/thumbsdown.png' alt='Thumbs down' />
-                        <p className="text-muted">Would not<br />reccommend</p>
+                        <p className="text-muted">Would not<br />recommend</p>
                     </>
                 }
             </div>
             <div class="col-md-10">
                 <div class="card-body">
-                    <h5>{review.title}</h5>
+                    <h5><span class="d-md-none">{review.recommends ? '👍' : '👎'} </span>{review.title}</h5>
                     <p>{review.content}</p>
                     <Rating name='Effectiveness' value={review.ratings.effectiveness} />
                     <Rating name='Friendliness' value={review.ratings.friendliness} />

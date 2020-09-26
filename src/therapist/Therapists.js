@@ -22,7 +22,7 @@ const therapists = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].map((
         {
             id: v.toString() + '_1',
             writtenAt: 1601143260,
-            reccommends: true,
+            recommends: true,
             ratings: {
                 effectiveness: Math.min((72 + (9 * v) ** 2) % 60 + 40 + 12, 100),
                 friendliness: Math.min((72 + (9 * v) ** 2) % 60 + 40 + 10, 100),
@@ -34,7 +34,7 @@ const therapists = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].map((
         {
             id: v.toString() + '_2',
             writtenAt: 1601133260,
-            reccommends: true,
+            recommends: true,
             ratings: {
                 effectiveness: Math.min((72 + (9 * v) ** 2) % 60 + 40 + 18, 100),
                 friendliness: Math.min((72 + (9 * v) ** 2) % 60 + 40 - 10, 100),
@@ -46,7 +46,7 @@ const therapists = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].map((
         {
             id: v.toString() + '_3',
             writtenAt: 1601128260,
-            reccommends: false,
+            recommends: false,
             ratings: {
                 effectiveness: Math.min((72 + (9 * v) ** 2) % 60 + 40 - 30, 100),
                 friendliness: Math.min((72 + (9 * v) ** 2) % 60 + 40, 100),

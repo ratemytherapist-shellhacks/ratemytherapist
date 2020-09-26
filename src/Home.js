@@ -20,9 +20,14 @@ const Home = () => {
                 <Card title={'Rate a Therapist'} button={{ text: 'Start rating', destination: '/therapists' }}>
                     <p>Write your therapist reviews</p>
                 </Card>
+                <Card title={'Why Therapy'} button={{ text: 'See why', destination: '/whytherapy' }}>
+                    <p>The benefits and the reasons to go.</p>
+                </Card>
+                
             </div>
+            
 
-            <WhyTherapy />
+            
         </>
     )
 }

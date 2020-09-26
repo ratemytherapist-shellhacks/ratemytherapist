@@ -9,55 +9,36 @@ const Home = () => {
                 <p className="lead">Find the right therapist for you based off real reviews you can trust.</p>
             </div>
 
-                <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                    <div className="col">
-                        <div className="card mb-4 shadow-sm">
-                            <div className="card-header">
-                                <h4 className="my-0 font-weight-normal">Therapy Types</h4>
-                            </div>
-                            <div className="card-body">
-                                <p>There are many types of therapy, and different types work better for different people or problems. These include:</p>
-                                <button type="button" className="btn btn-lg btn-block btn-outline-primary">Find Your Type</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card mb-4 shadow-sm">
-                            <div className="card-header">
-                                <h4 className="my-0 font-weight-normal">Find a Therapist</h4>
-                            </div>
-                            <div className="card-body">
-                                <p>Something something something</p>
-                                <ul className="list-unstyled mt-3 mb-4">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <button type="button" className="btn btn-lg btn-block btn-outline-primary">Find a therapist</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card mb-4 shadow-sm">
-                            <div className="card-header">
-                                <h4 className="my-0 font-weight-normal">Rate a Therapist</h4>
-                            </div>
-                            <div className="card-body">
-                                <p>Write your therapist reviews</p>
-                                <ul className="list-unstyled mt-3 mb-4">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <button type="button" className="btn btn-lg btn-block btn-outline-primary">Start rating</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <Card title={'Therapy Types'} button={{ text: 'Find your type', destination: '/types' }}>
+                    <p>There are many types of therapy, and different types work better for different people or problems.</p>
+                </Card>
+                <Card title={'Find a Therapist'} button={{ text: 'Find a therapist', destination: '/therapist' }}>
+                    <p>Something something something</p>
+                </Card>
+                <Card title={'Rate a Therapist'} button={{ text: 'Start rating', destination: '/therapist' }}>
+                    <p>Write your therapist reviews</p>
+                </Card>
+            </div>
+
             <WhyTherapy />
         </>
+    )
+}
+
+const Card = ({ title, children: body, button: { text, destination } }) => {
+    return (
+        <div className="col">
+            <div className="card mb-4 shadow-sm">
+                <div className="card-header">
+                    <h4 className="my-0 font-weight-normal">{title}</h4>
+                </div>
+                <div className="card-body">
+                    {body}
+                    <a href={destination} role="button" className="btn btn-lg btn-block btn-outline-primary">{text}</a>
+                </div>
+            </div>
+        </div>
     )
 }
 

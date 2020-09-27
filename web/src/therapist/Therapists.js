@@ -30,11 +30,11 @@ const Therapists = () => {
 
 /**
  * @param {Object} props
- * @param {{ _id: string, name: string, type: string, description: string, picture: string, ratings: { effectiveness: number, friendliness: number, affordability: number } }[]} props.therapists
+ * @param {{ _id: string, name: string, type: string, description: string, picture: string, ratings: { effectiveness: number, friendliness: number, affordability: number }, reviews: { id: string, writtenAt: number, recommends: boolean, ratings: { effectiveness: number, friendliness: number, affordability: number }, title: string, content: string }[] }[]} props.therapists 
  */
 const TherapistSubRoute = ({ therapists }) => {
     const { therapistId } = useParams();
-    const therapist = therapists.find(therapist => therapist._id = therapistId);
+    const therapist = therapists.find(therapist => therapist._id === therapistId);
 
     if (!therapist) return null;
 
@@ -55,7 +55,7 @@ const TherapistSubRoute = ({ therapists }) => {
 
 /**
  * @param {Object} props
- * @param {{ _id: string, name: string, type: string, description: string, picture: string, ratings: { effectiveness: number, friendliness: number, affordability: number } }} props.therapist 
+ * @param {{ _id: string, name: string, type: string, description: string, picture: string, ratings: { effectiveness: number, friendliness: number, affordability: number }, reviews: { id: string, writtenAt: number, recommends: boolean, ratings: { effectiveness: number, friendliness: number, affordability: number }, title: string, content: string }[] }[]} props.therapists 
  */
 const TherapistList = ({ therapists }) => {
     return (
@@ -78,7 +78,7 @@ const TherapistList = ({ therapists }) => {
 
 /**
  * @param {Object} props
- * @param {{ _id: string, name: string, type: string, description: string, picture: string, ratings: { effectiveness: number, friendliness: number, affordability: number } }} props.therapist 
+ * @param {{ _id: string, name: string, type: string, description: string, picture: string, ratings: { effectiveness: number, friendliness: number, affordability: number }, reviews: { id: string, writtenAt: number, recommends: boolean, ratings: { effectiveness: number, friendliness: number, affordability: number }, title: string, content: string }[] }} props.therapist 
  */
 const TherapistCard = ({ therapist }) => {
     return (

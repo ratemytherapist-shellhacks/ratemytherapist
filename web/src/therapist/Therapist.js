@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Rating from './Rating';
 
+/**
+ * @param {Object} props
+ * @param {{ _id: string, name: string, type: string, description: string, picture: string, ratings: { effectiveness: number, friendliness: number, affordability: number }, reviews: { id: string, writtenAt: number, recommends: boolean, ratings: { effectiveness: number, friendliness: number, affordability: number }, title: string, content: string }[] }} props.therapist 
+ */
 const Therapist = ({ therapist }) => {
     return (
         <>
@@ -35,6 +39,10 @@ const Therapist = ({ therapist }) => {
     )
 }
 
+/**
+ * @param {Object} props
+ * @param {{ id: string, writtenAt: number, recommends: boolean, ratings: { effectiveness: number, friendliness: number, affordability: number }, title: string, content: string }} props.review
+ */
 const Review = ({ review }) => {
     return (
         <div className="row g-0 py-2" style={{ borderBottom: '1px solid #ddd' }}>

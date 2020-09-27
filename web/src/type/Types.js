@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './types.css';
 
 const Types = () => {
@@ -15,230 +14,230 @@ const Types = () => {
                  <ul className="list-unstyled mt-3 mb-4 text-left">
                     <li>A</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
 
                     <li>B</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
 
                     <li>C</li>
                         <ul>        
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
 
                     <li>D</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
 
                     <li>E</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     <li>F</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
 
                     <li>G</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
 
                     <li>H</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     <li>I</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     <li>J</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         
                     <li>K</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         
                     <li>L</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         
                     <li>M</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         
                     <li>N</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         
                     <li>O</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         
                     <li>P</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         
                     <li>Q</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         
                     <li>R</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         
                     <li>S</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         
                     <li>T</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                         
                     <li>U</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
 
                     <li>V</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
 
                     <li>W</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     <li>X</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     <li>Y</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     <li>Z</li>
                         <ul>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     
                 </ul>

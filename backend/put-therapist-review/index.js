@@ -22,9 +22,9 @@ module.exports = async function(context, req) {
       .collection('Therapist')
       .findOneAndUpdate(
         { _id: req.params.therapistId },
-        { $push: { "reviews": body }}
-      )
-      .toArray();
+        { $push: { "reviews": req.body } },
+        { returnNewDocument: true },
+      );
     context.res = {
       body: therapists
     };

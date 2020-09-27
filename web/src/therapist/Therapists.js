@@ -53,6 +53,10 @@ const TherapistSubRoute = ({ therapists }) => {
     )
 }
 
+/**
+ * @param {Object} props
+ * @param {{ _id: string, name: string, type: string, description: string, picture: string, ratings: { effectiveness: number, friendliness: number, affordability: number } }} props.therapist 
+ */
 const TherapistList = ({ therapists }) => {
     return (
         <>
@@ -61,6 +65,8 @@ const TherapistList = ({ therapists }) => {
                 <p className='lead'>These are the therapists in your local area.</p>
             </div>
 
+            {(!therapists || !therapists.length) && <div className="d-flex justify-content-center"><div className="spinner-border" role="status"><span className="sr-only">Loading...</span></div></div>}
+            
             <div className='card-deck' style={{ display: 'flex', flexWrap: 'wrap' }}>
                 {therapists.map(t => (
                     <TherapistCard key={t._id} therapist={t} />

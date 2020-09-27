@@ -10,6 +10,7 @@ import Types from './type/Types';
 import Therapists from './therapist/Therapists';
 import Home from './Home';
 
+
 const App = () => {
   return (
     <Router>

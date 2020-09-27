@@ -24,9 +24,9 @@ const App = () => {
           <Link className="p-2 text-dark" to="/whytherapy">Why Therapy</Link>
           <Link className="p-2 text-dark" to="/therapists">Find a Therapist</Link>
         </nav>
-        <form className="d-flex mr-2">
+        {/* <form className="d-flex mr-2">
           <input className="form-control" type="search" placeholder="🔍 Search" aria-label="🔍 Search" />
-        </form>
+        </form> */}
       </div>
 
       <div className="container">

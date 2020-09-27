@@ -1,0 +1,202 @@
+[
+  {
+    "_id": "5f708fb67badde1948f4014e",
+    "name": "Della Folger",
+    "type": "Cognitive Behavioural Therapist",
+    "description": "Della is an expert in CBT based near Miami",
+    "picture": "https://placekitten.com/500/500?image=1",
+    "ratings": {
+      "effectiveness": 73,
+      "friendliness": 77,
+      "affordability": 86
+    },
+    "reviews": [
+      {
+        "id": "1_1",
+        "writtenAt": 1601143260,
+        "recommends": true,
+        "ratings": {
+          "effectiveness": 85,
+          "friendliness": 83,
+          "affordability": 58
+        },
+        "title": "Useful for helping me",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      },
+      {
+        "id": "1_2",
+        "writtenAt": 1601133260,
+        "recommends": true,
+        "ratings": {
+          "effectiveness": 91,
+          "friendliness": 63,
+          "affordability": 83
+        },
+        "title": "Good therapist",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      },
+      {
+        "id": "1_3",
+        "writtenAt": 1601128260,
+        "recommends": false,
+        "ratings": {
+          "effectiveness": 43,
+          "friendliness": 73,
+          "affordability": 78
+        },
+        "title": "Not that effective",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      }
+    ]
+  },
+  {
+    "_id": "5f708fe17badde1948f4014f",
+    "name": "Aaron Peck",
+    "type": "Cat Therapist",
+    "description": "Specialises in cuddles",
+    "picture": "https://placekitten.com/500/500?image=2",
+    "ratings": {
+      "effectiveness": 76,
+      "friendliness": 89,
+      "affordability": 53
+    },
+    "reviews": [
+      {
+        "id": "2_1",
+        "writtenAt": 1601143260,
+        "recommends": true,
+        "ratings": {
+          "effectiveness": 88,
+          "friendliness": 86,
+          "affordability": 61
+        },
+        "title": "Useful for helping me",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      },
+      {
+        "id": "2_2",
+        "writtenAt": 1601133260,
+        "recommends": true,
+        "ratings": {
+          "effectiveness": 94,
+          "friendliness": 66,
+          "affordability": 86
+        },
+        "title": "Good therapist",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      },
+      {
+        "id": "2_3",
+        "writtenAt": 1601128260,
+        "recommends": false,
+        "ratings": {
+          "effectiveness": 46,
+          "friendliness": 76,
+          "affordability": 81
+        },
+        "title": "Not that effective",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      }
+    ]
+  },
+  {
+    "_id": "5f708ffe7badde1948f40150",
+    "name": "Alva Fisher",
+    "type": "Cat Therapist",
+    "description": "Specialises in cuddles",
+    "picture": "https://placekitten.com/500/500?image=3",
+    "ratings": {
+      "effectiveness": 61,
+      "friendliness": 49,
+      "affordability": 58
+    },
+    "reviews": [
+      {
+        "id": "3_1",
+        "writtenAt": 1601143260,
+        "recommends": true,
+        "ratings": {
+          "effectiveness": 73,
+          "friendliness": 71,
+          "affordability": 46
+        },
+        "title": "Useful for helping me",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      },
+      {
+        "id": "3_2",
+        "writtenAt": 1601133260,
+        "recommends": true,
+        "ratings": {
+          "effectiveness": 79,
+          "friendliness": 51,
+          "affordability": 71
+        },
+        "title": "Good therapist",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      },
+      {
+        "id": "3_3",
+        "writtenAt": 1601128260,
+        "recommends": false,
+        "ratings": {
+          "effectiveness": 31,
+          "friendliness": 61,
+          "affordability": 66
+        },
+        "title": "Not that effective",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      }
+    ]
+  },
+  {
+    "_id": "5f7090117badde1948f40151",
+    "name": "Jerry Thompson",
+    "type": "Cat Therapist",
+    "description": "Specialises in cuddles",
+    "picture": "https://placekitten.com/500/500?image=16",
+    "ratings": {
+      "effectiveness": 88,
+      "friendliness": 77,
+      "affordability": 41
+    },
+    "reviews": [
+      {
+        "id": "16_1",
+        "writtenAt": 1601143260,
+        "recommends": true,
+        "ratings": {
+          "effectiveness": 100,
+          "friendliness": 98,
+          "affordability": 73
+        },
+        "title": "Useful for helping me",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      },
+      {
+        "id": "16_2",
+        "writtenAt": 1601133260,
+        "recommends": true,
+        "ratings": {
+          "effectiveness": 100,
+          "friendliness": 78,
+          "affordability": 98
+        },
+        "title": "Good therapist",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      },
+      {
+        "id": "16_3",
+        "writtenAt": 1601128260,
+        "recommends": false,
+        "ratings": {
+          "effectiveness": 58,
+          "friendliness": 88,
+          "affordability": 93
+        },
+        "title": "Not that effective",
+        "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."
+      }
+    ]
+  }
+]

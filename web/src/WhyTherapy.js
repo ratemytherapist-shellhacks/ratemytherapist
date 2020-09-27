@@ -5,17 +5,16 @@ const WhyTherapy = () => {
         <>
         <div className="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
             <h1 className="display-4">Why Therapy?</h1>
-            <p className="lead">There are many benefits to therpay!</p>
+            <p className="lead">There are many benefits to therapy!</p>
         </div>
         <div>
             
                 
-                    <p>There a lot of miscponceptions about therpay. It has been stigmatized
-                    for so long, but it is a great tool to help with anxiety, trauma, sleep, relationship, and so much more.</p> 
+                    <p>There a lot of miscponceptions about therapy. It has been stigmatized
+                    for so long, but it is a great tool to help with anxiety, trauma, sleep, relationships, and so much more.</p> 
 
-                    <p>Some of the reasons, you should go is when you are having mood swings 
-                    that are not expected. If your mood is negative, it could be a sign that maybe you should talk to someone.
-                    You can find the source of your problem, when you talk to a therapist. Rachel Fogelberg, a clinical socail worker,  said," “You have the opportunity to open up about your thoughts, feelings and circumstances in a confidential environment,” Fogelberg also said, “Within the safety of this secure environment, individuals can feel comfortable to explore areas of themselves or their lives that they are struggling or unhappy with.”"
+                    <p>If your mood is negative, it could be a sign that maybe you should talk to someone.
+                    You can find the source of your problems, when you talk to a therapist. Rachel Fogelberg, a clinical social worker said, “You have the opportunity to open up about your thoughts, feelings and circumstances in a confidential environment.” Fogelberg also said, “Within the safety of this secure environment, individuals can feel comfortable to explore areas of themselves or their lives that they are struggling or unhappy with.”
                     Fogelberg gives a great explanation of how having a therapist, can be great beucase they will not judge you and you can talk to them without feeling you will hurt someone's feeling and can actually get to your resolve problem quicker this way.
                     </p>
                     <p>Another reason to go is when you go through a big change, like moving to a new place, or getting a new job, or having a new family. Therapists can help you build strategies and a plan to manage your stress about a situation.

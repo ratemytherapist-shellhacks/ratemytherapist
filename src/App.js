@@ -9,6 +9,7 @@ import {
 import Types from './type/Types';
 import Therapists from './therapist/Therapists';
 import Home from './Home';
+import WhyTherapy from './WhyTherapy';
 
 
 const App = () => {
@@ -36,6 +37,9 @@ const App = () => {
           <Route path="/types">
             <Types />
           </Route>
+          <Route path="/whytherapy">
+            <WhyTherapy />
+            </Route>
           <Route path="/">
             <Home />
           </Route>

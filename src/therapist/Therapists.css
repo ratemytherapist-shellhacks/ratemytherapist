@@ -1,12 +1,17 @@
+body {
+    background-color: lemonchiffon;
+}
 .flex-card {
     margin: 0.5rem;
     flex: 1 0 1;
     position: relative;
     transition: 0.2s ease all;
     top: 5px;
+    box-shadow: 0 4px 8px 0 rgb(69, 161, 253);
 }
 
 .flex-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     top: 0;
 }
 

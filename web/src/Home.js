@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import WhyTherapy from './WhyTherapy';
 
 const Home = () => {
     return (
@@ -11,13 +12,13 @@ const Home = () => {
 
             <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
                 <Card title={'Therapy Types'} button={{ text: 'Find your type', destination: '/types' }}>
-                    <p>There are many types of therapy, and different types work better for different people or problems.</p>
+                    <p>Find the therapy best for your needs.</p>
                 </Card>
                 <Card title={'Why Therapy'} button={{ text: 'See why', destination: '/whytherapy' }}>
                     <p>The benefits and the reasons to go.</p>
                 </Card>
                 <Card title={'Find a Therapist'} button={{ text: 'Find a therapist', destination: '/therapists' }}>
-                    <p>View therapists and their ratings, and leave a review of your own to help others.</p>
+                    <p>Find and review different therapists.</p>
                 </Card>
             </div>
         </>

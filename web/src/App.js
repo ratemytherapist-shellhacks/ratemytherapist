@@ -19,14 +19,11 @@ const App = () => {
         <h5 className="my-0 mr-md-auto font-weight-normal">
           <Link className="p-2 text-dark" to="/">Rate My Therapist</Link>
         </h5>
-        <nav className="my-2 my-md-0 mr-md-3">
+        <nav className="my-2 my-md-0 mr-md-3 text-right">
           <Link className="p-2 text-dark" to="/types">Find Your Therapy</Link>
           <Link className="p-2 text-dark" to="/whytherapy">Why Therapy</Link>
           <Link className="p-2 text-dark" to="/therapists">Find a Therapist</Link>
         </nav>
-        {/* <form className="d-flex mr-2">
-          <input className="form-control" type="search" placeholder="🔍 Search" aria-label="🔍 Search" />
-        </form> */}
       </div>
 
       <div className="container">
@@ -38,12 +35,11 @@ const App = () => {
             <Types />
           </Route>
           <Route path="/whytherapy">
-             <WhyTherapy />
-          </Route>
+            <WhyTherapy />
+            </Route>
           <Route path="/">
             <Home />
           </Route>
-          
         </Switch>
       </div>
     </Router>

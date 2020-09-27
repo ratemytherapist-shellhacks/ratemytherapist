@@ -14,12 +14,16 @@ const loadDB = async () => {
   return client.db('Database');
 };
 
-module.exports = async function(context) {
+module.exports = async function(context, req) {
+  // TODO: more validation on req.params.therapistId and req.body
   try {
     const database = await loadDB();
     let therapists = await database
       .collection('Therapist')
-      .find()
+      .findOneAndUpdate(
+        { _id: req.params.therapistId },
+        { $push: { "reviews": body }}
+      )
       .toArray();
     context.res = {
       body: therapists
